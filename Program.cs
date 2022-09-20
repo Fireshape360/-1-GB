@@ -55,4 +55,5 @@ string[] CreateSecondArray(string[] array, string[] secondArray)
     }
     Console.WriteLine();
     return secondArray;
+    
 }

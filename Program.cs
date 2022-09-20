@@ -23,6 +23,7 @@ CreateSecondArray(array, secondArray);
 
 WriteArray(secondArray);
 
+
 void CreateArray(string[] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
@@ -33,6 +34,7 @@ void CreateArray(string[] array)
     }
 }
 
+
 void WriteArray(string[] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
@@ -42,6 +44,7 @@ void WriteArray(string[] array)
         Console.WriteLine();
     }
 }
+
 
 
 string[] CreateSecondArray(string[] array, string[] secondArray)
@@ -57,6 +60,5 @@ string[] CreateSecondArray(string[] array, string[] secondArray)
     }
     Console.WriteLine();
     return secondArray;
-
 
 }

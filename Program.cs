@@ -10,6 +10,7 @@ if (isNumber == false)
     return;
 }
 
+
 string[] array = new string[m];
 
 string[] secondArray = new string[m];
@@ -42,6 +43,7 @@ void WriteArray(string[] array)
     }
 }
 
+
 string[] CreateSecondArray(string[] array, string[] secondArray)
 {
     int count = 0;
@@ -55,5 +57,6 @@ string[] CreateSecondArray(string[] array, string[] secondArray)
     }
     Console.WriteLine();
     return secondArray;
-    
+
+
 }

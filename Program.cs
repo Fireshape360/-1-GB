@@ -14,3 +14,24 @@ string[] array = new string[m];
 
 string[] secondArray = new string[m];
 
+
+void CreateArray(string[] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        Console.WriteLine($"Введите элемент массива {i + 1}");
+
+        array[i] = Console.ReadLine();
+    }
+}
+
+void WriteArray(string[] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        Console.Write(array[i]);
+
+        Console.WriteLine();
+    }
+}
+

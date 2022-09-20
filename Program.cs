@@ -1,7 +1,8 @@
-﻿/*Написать программу, которая из имеющегося массива строк формирует новый массив из строк, длинна которых <= 3 символа. Первоначальный массив можно 
+﻿
+/*Написать программу, которая из имеющегося массива строк формирует новый массив из строк, длинна которых <= 3 символа. Первоначальный массив можно 
 ввести с клавиатуры или задать со старта*/
 
-Console.WriteLine("Задай размер массива");
+Console.WriteLine("Задайте размер массива в виде числа");
 
 bool isNumber = int.TryParse(Console.ReadLine(), out int m);
 if (isNumber == false)
@@ -46,14 +47,13 @@ void WriteArray(string[] array)
 }
 
 
-
 string[] CreateSecondArray(string[] array, string[] secondArray)
 {
     int count = 0;
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i].Length <= 3)
-        {
+       спш {
             secondArray[count] = array[i];
             count++;
         }
